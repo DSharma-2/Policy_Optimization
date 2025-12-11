@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (too large for git)
+data/raw/*.csv
+data/raw/*.zip
+data/interim/*.csv
+data/interim/*.pkl
+data/processed/*.csv
+data/processed/*.pkl
+*.parquet
+*.h5
+*.hdf5
+
+# Model artifacts
+models/*.pt
+models/*.pth
+models/*.pkl
+models/saved_cql/*
+models/saved_iql/*
+!models/.gitkeep
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Reports (except final)
+reports/*.pdf
+!reports/final_report.pdf
+
+# Temporary files
+*.tmp
+*.bak
+temp/
+
+# OS
+Thumbs.db
+.DS_Store
