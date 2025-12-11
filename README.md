@@ -3,7 +3,7 @@
 
 ---
 
-## 📋 Executive Summary
+## Executive Summary
 
 This project implements and compares **two fundamentally different approaches** to automated loan approval decision-making using 1.35 million historical loans from LendingClub:
 
@@ -12,7 +12,7 @@ This project implements and compares **two fundamentally different approaches** 
 
 ---
 
-## 🎯 Business Context & Problem Statement
+## Business Context & Problem Statement
 
 ### The Challenge
 
@@ -29,7 +29,7 @@ Traditional supervised learning optimizes for **prediction accuracy** (AUC, F1-s
 
 ---
 
-## 📊 Dataset: LendingClub Loan Data
+## Dataset: LendingClub Loan Data
 
 **Source**: [Kaggle - LendingClub Loan Data](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
 
@@ -57,7 +57,7 @@ Loan:       term, purpose, grade, emp_length
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### Task 1: EDA & Preprocessing
 
@@ -401,7 +401,7 @@ But IQL approves because:
 
 ---
 
-## 🚧 Limitations & Challenges
+## Limitations & Challenges
 
 ### Data Limitations
 
@@ -454,7 +454,7 @@ But IQL approves because:
 
 ---
 
-## 🚀 Future Work & Recommendations
+## Future Work & Recommendations
 
 ### Deployment Strategy
 
@@ -558,7 +558,7 @@ Phase 4: Full Deployment
 - Supervised pre-training + RL fine-tuning
 - Ensemble of RL + supervised models 
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 ### Step 1: Clone Repository
 
@@ -604,7 +604,7 @@ cat reports/FINAL_REPORT.md
 ---
 
 
-## 📊 Expected Results
+## Expected Results
 
 ### Model Comparison Summary
 
@@ -629,7 +629,7 @@ The notebooks generate comprehensive visualizations including:
 
 ---
 
-## 🎓 Key Takeaways
+## Key Takeaways
 
 ### 1. Metrics Matter: AUC/F1 vs. Estimated Policy Value
 
@@ -742,7 +742,7 @@ Biggest challenge in this project: Dataset contains only approved loans.
 
 ---
 
-## 🏆 Project Achievements
+## Project Achievements
 
 This project demonstrates:
 
@@ -755,12 +755,12 @@ This project demonstrates:
 
 ---
 
-## 👤 Author
+## Author
 
 **Dhruv Sharma**  
 Research Focus: Financial Machine Learning, Offline Reinforcement Learning, Credit Risk Modeling
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details
 
